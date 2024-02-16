@@ -1,0 +1,23 @@
+.Search {
+  position: relative;
+
+  &__input {
+    width: calc(100% - 1.8rem);
+  }
+
+  .Button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    padding: .4rem .5rem;
+    visibility: hidden;
+    background-color: transparent;
+  }
+
+  .active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
