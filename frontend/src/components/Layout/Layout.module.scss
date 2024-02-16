@@ -1,0 +1,21 @@
+#root {
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  grid-template-columns: 20% 80%;
+
+  @media (width <= 600px) {
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "footer";
+    grid-template-columns: 100%;
+  }
+}
+
+.main {
+  grid-area: main;
+}
