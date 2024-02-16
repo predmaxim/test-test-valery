@@ -1,0 +1,13 @@
+@use "../../assets/styles/vars" as *;
+
+.PostGrid {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  &__item {
+    border: 1px solid #42425e;
+    border-radius: $border-radius;
+    padding: .5rem;
+  }
+}
