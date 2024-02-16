@@ -1,0 +1,13 @@
+.Pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  &__item {
+    padding: .5rem 1rem;
+  }
+
+  .active {
+    border-color: #646cff;
+  }
+}
