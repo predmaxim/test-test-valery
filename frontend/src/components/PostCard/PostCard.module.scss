@@ -1,0 +1,12 @@
+@use "../../assets/styles/vars" as *;
+
+.PostCard {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  &__actions {
+    display: flex;
+    gap: 1rem;
+  }
+}
