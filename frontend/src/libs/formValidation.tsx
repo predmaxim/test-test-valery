@@ -20,18 +20,18 @@ export const formFieldValidation = (value: string, rules: RulesType): {
         break;
       }
       case 'min': {
-        const res = value.length > +val;
+        const res = value.length >= +val;
         acc.status = res;
         if (!res) {
-          acc.message = `Should be less then ${val} symbols`;
+          acc.message = `Should be greater then ${val} symbols`;
         }
         break;
       }
       case 'max': {
-        const res = value.length < +val;
+        const res = value.length <= +val;
         acc.status = res;
         if (!res) {
-          acc.message = `Should be greater then ${val} symbols`;
+          acc.message = `Should be less then ${val} symbols`;
         }
         break;
       }
