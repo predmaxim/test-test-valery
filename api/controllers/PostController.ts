@@ -1,5 +1,5 @@
 import {Request, Response} from 'express';
-import Post from '../models/PostModel';
+import Post from '../models';
 import {PostSortDirectionType, PostSortType, PostType} from '../libs/types';
 import dbConnect from '../dbConnect';
 import {DIRECTION, POST_LIMIT, SORT_BY} from '../libs/constants';
