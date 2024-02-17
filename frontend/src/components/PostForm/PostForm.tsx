@@ -67,7 +67,7 @@ export const PostForm = ({post, onSubmit, id}: PostFormProps) => {
         autoFocus
         required
       />
-      {formData?.title?.message && <p>{formData?.title?.message}</p>}
+      {formData?.title?.message && <p className={`${styles.validateError} error`}>{formData?.title?.message}</p>}
       <textarea
         placeholder="Post Content"
         className={`input`}
@@ -76,7 +76,7 @@ export const PostForm = ({post, onSubmit, id}: PostFormProps) => {
         onChange={onChangeContent}
         required
       />
-      {formData?.content?.message && <p>{formData?.content?.message}</p>}
+      {formData?.content?.message && <p className={`${styles.validateError} error`}>{formData?.content?.message}</p>}
     </form>
   );
 };
