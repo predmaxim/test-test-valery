@@ -1,8 +1,8 @@
-import {PostQueryProps, PostType} from '../../libs/types';
-import {usePostStore} from '../../store';
+import {PostQueryProps, PostType} from '@/libs/types';
+import {usePostStore} from '@/store';
 import {useCallback, useEffect, useState} from 'react';
-import {PAGE_DEFAULT, POST_LIMIT} from '../../libs/constants';
-import {Pagination, PostCard, PostSort} from '../../components';
+import {PAGE_DEFAULT, POST_LIMIT} from '@/libs/constants';
+import {Pagination, PostCard, PostSort} from '@/components';
 import styles from './PostGrid.module.scss';
 
 export type PostGridProps = Omit<PostQueryProps, 'page'> & { pagination?: boolean, sort?: boolean };

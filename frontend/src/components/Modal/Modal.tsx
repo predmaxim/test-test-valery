@@ -1,7 +1,7 @@
 import {ReactNode} from 'react';
 import styles from './Modal.module.scss';
 import {RiCloseLine} from 'react-icons/ri';
-import {Button} from '../../components';
+import {Button} from '@/components';
 import {createPortal} from 'react-dom';
 
 export type ModalProps = {

@@ -1,9 +1,8 @@
-import logo from '../../assets/react.svg';
-import {Search} from '../Search';
+import logo from '@/assets/react.svg';
+import {CreatePost, Search} from '@/components';
 import {Link} from 'react-router-dom';
-import {ROUTES} from '../../router/routes';
+import {ROUTES} from '@/router/routes';
 import styles from './Header.module.scss';
-import {CreatePost} from '../../components';
 
 export const Header = () => {
   return (

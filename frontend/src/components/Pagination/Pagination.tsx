@@ -1,6 +1,6 @@
 import styles from './Pagination.module.scss';
-import {PostQueryProps} from '../../libs/types.ts';
-import {Button} from '../../components';
+import {PostQueryProps} from '@/libs/types.ts';
+import {Button} from '@/components';
 
 type PaginationProps = {
   page: PostQueryProps['page'],

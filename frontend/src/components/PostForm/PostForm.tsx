@@ -1,7 +1,7 @@
 import styles from './PostForm.module.scss';
-import {PostType} from '../../libs/types';
+import {PostType} from '@/libs/types';
 import {ChangeEvent, FormEvent, useState} from 'react';
-import {formFieldValidation} from '../../libs/formValidation';
+import {formFieldValidation} from '@/libs/formValidation';
 
 type PostFormProps = {
   post?: PostType,

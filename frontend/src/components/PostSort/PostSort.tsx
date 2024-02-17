@@ -1,8 +1,8 @@
 import styles from './PostSort.module.scss';
-import {DIRECTION, SORT_BY, SORT_BY_DEFAULT} from '../../libs/constants';
+import {DIRECTION, SORT_BY, SORT_BY_DEFAULT} from '@/libs/constants';
 import {ChangeEvent, useState} from 'react';
-import {PostQueryProps} from '../../libs/types';
-import {genFirstLetterUpperCase} from '../../libs/helpers';
+import {PostQueryProps} from '@/libs/types';
+import {genFirstLetterUpperCase} from '@/libs/helpers';
 
 type PostSortProps = PostQueryProps & {
   onChange: (sortValue: string[]) => void

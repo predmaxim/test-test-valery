@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom';
-import {ROUTES} from '../../router/routes';
+import {ROUTES} from '@/router/routes';
 import styles from './PostCard.module.scss';
-import {PostType} from '../../libs/types';
-import {Button, Modal, PostForm} from '../../components';
-import {usePostStore} from '../../store';
+import {PostType} from '@/libs/types';
+import {Button, Modal, PostForm} from '@/components';
+import {usePostStore} from '@/store';
 import {useCallback, useId, useState} from 'react';
 
 export type PostCardProps = {

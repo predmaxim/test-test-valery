@@ -1,8 +1,8 @@
 import styles from './Search.module.scss';
 import {ChangeEvent} from 'react';
-import {Button} from '../../components';
+import {Button} from '@/components';
 import {RiCloseLine} from 'react-icons/ri';
-import {usePostStore} from '../../store';
+import {usePostStore} from '@/store';
 
 export function Search() {
   const [

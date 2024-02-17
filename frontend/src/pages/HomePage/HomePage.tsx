@@ -1,4 +1,4 @@
-import {PostGrid} from '../../components';
+import {PostGrid} from '@/components';
 
 export const HomePage = () => {
   return (

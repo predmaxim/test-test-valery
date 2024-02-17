@@ -1,7 +1,7 @@
-import {Button, Modal, PostForm} from '../../components';
+import {Button, Modal, PostForm} from '@/components';
 import {useCallback, useId, useState} from 'react';
-import {PostType} from '../../libs/types';
-import {usePostStore} from '../../store';
+import {PostType} from '@/libs/types';
+import {usePostStore} from '@/store';
 
 export const CreatePost = () => {
   const [showModal, setShowModal] = useState(false);

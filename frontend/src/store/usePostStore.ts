@@ -1,6 +1,6 @@
 import {create} from 'zustand';
-import {PostQueryProps, PostType} from '../libs/types';
-import {API_URL, DIRECTION_DEFAULT, PAGE_DEFAULT, POST_LIMIT, SORT_BY_DEFAULT} from '../libs/constants';
+import {PostQueryProps, PostType} from '@/libs/types';
+import {API_URL, DIRECTION_DEFAULT, PAGE_DEFAULT, POST_LIMIT, SORT_BY_DEFAULT} from '@/libs/constants';
 import {immer} from 'zustand/middleware/immer';
 
 export type PostStoreType = {

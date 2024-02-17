@@ -1,5 +1,5 @@
-import {PostType} from '../../libs/types.ts';
-import {usePostStore} from '../../store';
+import {PostType} from '@/libs/types';
+import {usePostStore} from '@/store';
 import {useParams} from 'react-router-dom';
 import {useEffect, useState} from 'react';
 

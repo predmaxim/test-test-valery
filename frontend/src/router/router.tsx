@@ -1,8 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
 import {ROUTES} from './routes';
-import {HomePage} from '../pages/HomePage/HomePage.tsx';
-import {PostPage} from '../pages/PostPage/PostPage.tsx';
-import {NotFoundPage} from '../pages/NotFoundPage';
+import {HomePage, NotFoundPage, PostPage} from '@/pages';
 
 export const Router = () => {
   return (
