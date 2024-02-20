@@ -44,7 +44,7 @@ export const usePostStore = create<PostStoreType & PostStoreActionsType>()(
         limit = POST_LIMIT,
         sortBy = SORT_BY_DEFAULT,
         direction = DIRECTION_DEFAULT,
-        search = '6'
+        search = ''
       }
     ) => {
       set({loading: true});
